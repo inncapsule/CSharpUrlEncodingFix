@@ -27,6 +27,7 @@ namespace PubNub_Messaging.Tests
                     return true;
                 }
             );
+            Assert.AreEqual("my/channel", channel);
         }
     }
 }
